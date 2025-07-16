@@ -15,7 +15,7 @@ WARNING:
 
 -- creating the databases
 
-create database datawarehouse
+create database datawarehouse;
 
   -- used 3 different databases for 3 different layers
 
