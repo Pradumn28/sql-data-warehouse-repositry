@@ -8,6 +8,9 @@ This project demonstrates a **modern layered data warehouse architecture** using
 
 ## 🧱 Architecture Layers
 
+![DataWarehouse Design](docs/data_warehouse_design.png)
+
+
 ### 🥉 Bronze Layer
 > *Raw Ingested Data*
 
@@ -22,6 +25,8 @@ This project demonstrates a **modern layered data warehouse architecture** using
 - Applies joins and enriches data from multiple bronze tables.
 - Provides a clean base for analytical modeling.
 
+![layers_diagram](docs/layers_diagram.png)
+
 ### 🥇 Gold Layer
 > *Business-Ready, Analytical Data*
 
@@ -30,6 +35,7 @@ This project demonstrates a **modern layered data warehouse architecture** using
 - Ready for integration with reporting tools like Power BI (in the future).
 
 ---
+
 
 ## 🤖 Coming Soon: Python Automation Scripts
 
@@ -41,6 +47,8 @@ This project demonstrates a **modern layered data warehouse architecture** using
 
 ---
 
+![data_model](docs/data_model.png)
+
 ## 🧾 Data Model (Drawn with draw.io)
 
 - `fact_sales` 💰 — Core transactional data.
@@ -50,6 +58,7 @@ This project demonstrates a **modern layered data warehouse architecture** using
 > 📌 See `data_catalog.md` for complete table dictionary with emoji legends.
 
 ---
+![Integration Model](docs/Integration_model.png)
 
 ## ⚙️ How It Works
 
@@ -76,3 +85,20 @@ This project demonstrates a **modern layered data warehouse architecture** using
     └── bulk_insert.py (coming soon)
 📄 data_catalog.md
 📄 README.md
+```
+
+## 📌 Tech Stack
+- **SQL Server**  
+- **Data Modelling**  
+- **draw.io**
+
+  ---
+
+## 🤝 Connect with Me  
+
+If you have any questions, feedback, or suggestions about this project, feel free to reach out!  
+💬 Let’s connect on
+
+💼 [LinkedIn](https://www.linkedin.com/in/pradumnchauhan)!
+
+📧 [Email](pradumnchauhan2812@gmail.com)!
