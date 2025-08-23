@@ -1,4 +1,4 @@
-# 🏗️ Modern Data Warehouse Project – Bronze, Silver & Gold Layers
+# 🏗️ End-to-End E-Commerce Analytics ETL Pipeline
 
 ## 📦 Overview
 
